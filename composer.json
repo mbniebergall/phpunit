@@ -1,0 +1,28 @@
+{
+    "name": "mniebergall/phpunit",
+    "description": "PHPUnit presentation code",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": ["src/"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": ["tests/src/"]
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Niebergall",
+            "email": "mbniebergall@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpspec/prophecy-phpunit": "^2.0"
+    },
+    "require": {
+        "fakerphp/faker": "^1.15"
+    }
+}
